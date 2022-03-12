@@ -10,7 +10,7 @@ while True:
 	num = int(num)
 	i -= 1
 	if i > 0:
-		if num == r and num >= 1 and num <=100:
+		if num == r:
 			print('bnigo')
 			break
 		elif num > r and num >= 1 and num <=100:
