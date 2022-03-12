@@ -14,19 +14,16 @@ while True:
 			print('bnigo')
 			break
 		elif num > r and num >= 1 and num <=100:
-			print('choose a smaller number')
-			print('You still have', i,'chance')
+			print('choose a smaller number')		
 			print()
 		elif num < r and num >= 1 and num <=100:
 			print('choose a greater number')
 			print()
-			print('You still have', i,'chance')
 			print()
 		else:
 			print('The number i between 1~100')
-			print('')
-			print('You still have', i,'chance')
-			print()	 
+			print()	
+		print('You still have', i,'more chance') 
 	else:
 		print('Mission failed')
 		print('The number is:', r)
